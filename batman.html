@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kindle Comic Reading Orders</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#orders">Reading Orders</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    </nav>
+
+    <!-- Introduction Text -->
+    <div class="introduction">
+    <h1>Batman Reading Order</h1>
+    <p>Reading order based on my currently owned Kindle books</p>
+    </div>
+    <!-- Book Container -->
+    <div class="book-container" id="books">
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/61zvJqkLxxL._SY466_.jpg" alt="Batman: Year One">
+             <p>Batman: Year One</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91f1leiTLDL._SY466_.jpg" alt="Batman: Haunted Knight">
+             <p>Batman: Haunted Knight</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81CZxw6v6bL._SY466_.jpg" alt="Batman: The Long Halloween">
+             <p>Batman: The Long Halloween</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/71Qe2f2AU3L._SY466_.jpg" alt="Batman: Dark Victory">
+             <p>Batman: Dark Victory</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/61z2HFmt6TL._SY445_SX342_.jpg" alt="Batman: The Killing Joke">
+             <p>Batman: The Killing Joke</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/51w+XrdkNVL._SY466_.jpg" alt="Batman: Birth of the Demon">
+             <p>Batman: Birth of the Demon</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/517CTueUHKL._SY300_.jpg" alt="Batman: Knightfall Vol. 1">
+             <p>Batman: Knightfall Vol. 1</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/51gjtygD0DL._SY300_.jpg" alt="Batman: Knightfall Vol. 2: Knightquest">
+             <p>Batman: Knightfall Vol. 2: Knightquest</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/6173Y0X35UL._SY300_.jpg" alt="Batman: Knightfall Vol. 3: Knightsend">
+             <p>Batman: Knightfall Vol. 3: Knightsend</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91eLIrPtqhL._SY466_.jpg" alt="Batman: Troika">
+             <p>Batman: Troika</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81VbtlKw3iL._SY466_.jpg" alt="Batman: Contagion">
+             <p>Batman: Contagion</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/61Dt8cKgucL._SY466_.jpg" alt="Batman Versus Bane">
+             <p>Batman Versus Bane</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81SWM0mKEyL._SY466_.jpg" alt="Batman: Legacy Vol. 1">
+             <p>Batman: Legacy Vol. 1</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81gCQYEZ-5L._SY466_.jpg" alt="Batman: Legacy Vol. 2">
+             <p>Batman: Legacy Vol. 2</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81oikQX3zFL._SY466_.jpg" alt="Batman: Cataclysm">
+             <p>Batman: Cataclysm</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91FMqLdyWOL._SY466_.jpg" alt="Batman: Road to No Man's Land Vol. 1">
+             <p>Batman: Road to No Man's Land Vol. 1</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81xH9nSjMsL._SY466_.jpg" alt="Batman: Road to No Man's Land Vol. 2">
+             <p>Batman: Road to No Man's Land Vol. 2</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91I71Cq7jPL._SY466_.jpg" alt="Batman: No Man's Land Vol. 1">
+             <p>Batman: No Man's Land Vol. 1</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/810x8Bu724L._SY466_.jpg" alt="Batman: No Man's Land Vol. 2">
+             <p>Batman: No Man's Land Vol. 2</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/911Oibxq3eL._SY466_.jpg" alt="Batman: No Man's Land Vol. 3">
+             <p>Batman: No Man's Land Vol. 3</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/8186sQU-aZL._SY466_.jpg" alt="Batman: No Man's Land Vol. 4">
+             <p>Batman: No Man's Land Vol. 4</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81Rs8UgipwL._SY466_.jpg" alt="Batman: New Gotham Vol. 1">
+             <p>Batman: New Gotham Vol. 1</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81kAlp6cwkL._SY466_.jpg" alt="Batman: New Gotham Vol. 2">
+             <p>Batman: New Gotham Vol. 2</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81i4cDMRPRL._SY466_.jpg" alt="Batman by Ed Brubaker Vol. 1">
+             <p>Batman by Ed Brubaker Vol. 1</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/71IxMk45uAL._SY466_.jpg" alt="Batman: Bruce Wayne - Murderer?">
+             <p>Batman: Bruce Wayne - Murderer?</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91Ej6WPqmvL._SY466_.jpg" alt="Batman: Bruce Wayne - Fugitive">
+             <p>Batman: Bruce Wayne - Fugitive</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91B8HkIC3LL._SY466_.jpg" alt="Gotham Central: Book 1: In the Line of Duty">
+             <p>Gotham Central: Book 1: In the Line of Duty</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/51VxphEVJML._SY445_SX342_.jpg" alt="Batman: The Complete Hush">
+             <p>Batman: The Complete Hush</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81zA23nKyoL._SY466_.jpg" alt="Batman: The Doom that Came to Gotham">
+             <p>Batman: The Doom that Came to Gotham</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81WEr4KIQIL._SY466_.jpg" alt="Batman: Broken City New Edition">
+             <p>Batman: Broken City New Edition</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91FrFtzKl-L._SY466_.jpg" alt="Gotham Central: Book 2: Jokers and Madmen">
+             <p>Gotham Central: Book 2: Jokers and Madmen</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81ePb7Cw8WL._SY466_.jpg" alt="Superman/Batman Vol. 1">
+             <p>Superman/Batman Vol. 1</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91uITSWl59L._SY466_.jpg" alt="Superman/Batman Vol. 2">
+             <p>Superman/Batman Vol. 2</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91iWoNDHBoL._SY466_.jpg" alt="Gotham Central: Book 3: On the Freak Beat">
+             <p>Gotham Central: Book 3: On the Freak Beat</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/51br3GJvKAL._SY445_SX342_.jpg" alt="Batman: War Games: Book One">
+             <p>Batman: War Games: Book One</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/812Yh6MY9RL._SY466_.jpg" alt="Batman: War Games: Book Two">
+             <p>Batman: War Games: Book Two</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81YyfQDZwtL._SY466_.jpg" alt="Identity Crisis (New Edition)">
+             <p>Identity Crisis (New Edition)</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/61bP+iQsetL._SY466_.jpg" alt="Batman: Under the Red Hood">
+             <p>Batman: Under the Red Hood</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/918XDDUpENL._SY466_.jpg" alt="Gotham Central: Book 4: Corrigan">
+             <p>Gotham Central: Book 4: Corrigan</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/71zjS6LByuL._SY466_.jpg" alt="Batman: Batman and Son (Deluxe Edition)">
+             <p>Batman: Batman and Son (Deluxe Edition)</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81dCVuYJTBL._SY466_.jpg" alt="Batman: The Resurrection of Ra's Al Ghul">
+             <p>Batman: The Resurrection of Ra's Al Ghul</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91jSEPICuvL._SY466_.jpg" alt="Batman: R.I.P.">
+             <p>Batman: R.I.P.</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/719OeqwD4OL._SY466_.jpg" alt="Batman: Battle for the Cowl">
+             <p>Batman: Battle for the Cowl</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/71EvWLZ19lL._SY466_.jpg" alt="Batman and Robin (2009-2011) Vol. 1">
+             <p>Batman and Robin (2009-2011) Vol. 1</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/51VzHF+bu-L._SY445_SX342_.jpg" alt="Batman and Robin (2009-2011) Vol. 2">
+             <p>Batman and Robin (2009-2011) Vol. 2</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81T1bmcs6wL._SY466_.jpg" alt="Batman and Robin (2009-2011) Vol. 3">
+             <p>Batman and Robin (2009-2011) Vol. 3</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81nrTef4c+L._SY466_.jpg" alt="Batman: Time and the Batman">
+             <p>Batman: Time and the Batman</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81PL-AXSJbL._SY466_.jpg" alt="Batman: The Return of Bruce Wayne">
+             <p>Batman: The Return of Bruce Wayne</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/61+ktRlnQ-L._SY466_.jpg" alt="Batman and Robin (2009-2011): Dark Knight Vs. White Knight">
+             <p>Batman and Robin (2009-2011): Dark Knight Vs. White Knight</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/816TrmRCiaL._SY466_.jpg" alt="Batman Incorporated (2010-2011) Vol. 1: Deluxe">
+             <p>Batman Incorporated (2010-2011) Vol. 1: Deluxe</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/815aSiXUFAL._SY466_.jpg" alt="Batman Incorporated (2012-2013) Vol. 1: Demon Star">
+             <p>Batman Incorporated (2012-2013) Vol. 1: Demon Star</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/71XKjkozHtL._SY466_.jpg" alt="Batman Incorporated (2012-2013) Vol. 2: Gotham's Most Wanted">
+             <p>Batman Incorporated (2012-2013) Vol. 2: Gotham's Most Wanted</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91KWm56B1pL._SY466_.jpg" alt="Batman: Gates of Gotham">
+             <p>Batman: Gates of Gotham</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/9184jqEbT-L._SY466_.jpg" alt="Batman: The Black Mirror">
+             <p>Batman: The Black Mirror</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81yZqKg27oL._SY466_.jpg" alt="Batman (2011-2016) Vol. 4: Zero Year- Secret City">
+             <p>Batman (2011-2016) Vol. 4: Zero Year- Secret City</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/918niqhjOYL._SY466_.jpg" alt="DC Comics: Zero Year">
+             <p>DC Comics: Zero Year</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91ZkJhxiUJL._SY466_.jpg" alt="Batman (2011-2016) Vol. 5: Zero Year – Dark City">
+             <p>Batman (2011-2016) Vol. 5: Zero Year – Dark City</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/919ouC0aLyL._SY466_.jpg" alt="Batman (2011-2016) Vol. 1: The Court of Owls">
+             <p>Batman (2011-2016) Vol. 1: The Court of Owls</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81QDJCKLP8L._SY466_.jpg" alt="Batman: Night of the Owls">
+             <p>Batman: Night of the Owls</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/810OwSWuH+L._SY466_.jpg" alt="Batman (2011-2016) Vol. 2: The City of Owls">
+             <p>Batman (2011-2016) Vol. 2: The City of Owls</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81mfYVphdPL._SY466_.jpg" alt="Batman: Detective Comics Vol. 1: Faces of Death">
+             <p>Batman: Detective Comics Vol. 1: Faces of Death</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/818I6e-n5jL._SY466_.jpg" alt="Batman (2011-2016) Vol. 3: Death of the Family">
+             <p>Batman (2011-2016) Vol. 3: Death of the Family</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81RG4mrG8YL._SY466_.jpg" alt="Joker: Death of the Family">
+             <p>Joker: Death of the Family</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/8164tLGqrXL._SY466_.jpg" alt="Batman (2011-2016) Vol. 6: Graveyard Shift">
+             <p>Batman (2011-2016) Vol. 6: Graveyard Shift</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/913jCpjMGNL._SY466_.jpg" alt="Batman (2011-2016) Vol. 7: Endgame">
+             <p>Batman (2011-2016) Vol. 7: Endgame</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81kN2a5XLGL._SY466_.jpg" alt="Batman (2011-2016) Vol. 8: Superheavy">
+             <p>Batman (2011-2016) Vol. 8: Superheavy</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91CFNojuYsL._SY466_.jpg" alt="Batman (2011-2016) Vol. 9: Bloom">
+             <p>Batman (2011-2016) Vol. 9: Bloom</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/81DIc3MkN8L._SY466_.jpg" alt="Batman (2011-2016) Vol. 10: Epilogue">
+             <p>Batman (2011-2016) Vol. 10: Epilogue</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91LPZYwkR3L._SY466_.jpg" alt="Batman (2016-): The Rebirth Deluxe Edition - Book 1">
+             <p>Batman (2016-): The Rebirth Deluxe Edition - Book 1</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91d4XsywWOL._SY466_.jpg" alt="Batman (2016-): The Rebirth Deluxe Edition - Book 2">
+             <p>Batman (2016-): The Rebirth Deluxe Edition - Book 2</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91EumlFOSBL._SY466_.jpg" alt="Batman (2016-): The Rebirth Deluxe Edition - Book 3">
+             <p>Batman (2016-): The Rebirth Deluxe Edition - Book 3</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91tKPr-g6FL._SY466_.jpg" alt="Batman (2016-): The Rebirth Deluxe Edition - Book 4">
+             <p>Batman (2016-): The Rebirth Deluxe Edition - Book 4</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91iKPkUwH-L._SY466_.jpg" alt="Batman (2016-): The Rebirth Deluxe Edition - Book 5">
+             <p>Batman (2016-): The Rebirth Deluxe Edition - Book 5</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91KgFoW8APL._SY466_.jpg" alt="Heroes in Crisis">
+             <p>Heroes in Crisis</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91efoHuMuxL._SY466_.jpg" alt="Batman (2016-): The Rebirth Deluxe Edition - Book 6">
+             <p>Batman (2016-): The Rebirth Deluxe Edition - Book 6</p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
