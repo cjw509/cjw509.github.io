@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kindle Comic Reading Orders</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page-id="tom_king">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="orders.html">Reading Orders</a></li>
+    </ul>
+    </nav>
+
+    <!-- Introduction Text -->
+    <div class="introduction">
+        <h1>Tom King Reading Order</h1>
+        <p>Reading order based on my currently owned Kindle books</p>
+    </div>
+    <!-- Percentage Display Section -->
+    <div class="progress-section">
+      <h2>Progress</h2>
+      <div class="progress-bar-container">
+          <div class="progress-bar" id="progress-bar"></div>
+      </div>
+      <p id="progress-text">0% of books read</p>
+    </div>
+    <!-- Book Container -->
+    <div class="book-container" id="books">
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91LPZYwkR3L._SY466_.jpg" alt="Batman (2016-): The Rebirth Deluxe Edition - Book 1">
+             <p>Batman (2016-): The Rebirth Deluxe Edition - Book 1</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/91B1lEsNcPL._SY466_.jpg" alt="Batman: Night of the Monster Men">
+             <p>Batman: Night of the Monster Men</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91d4XsywWOL._SY466_.jpg" alt="Batman (2016-): The Rebirth Deluxe Edition - Book 2">
+             <p>Batman (2016-): The Rebirth Deluxe Edition - Book 2</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91EumlFOSBL._SY466_.jpg" alt="Batman (2016-): The Rebirth Deluxe Edition - Book 3">
+             <p>Batman (2016-): The Rebirth Deluxe Edition - Book 3</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91tKPr-g6FL._SY466_.jpg" alt="Batman (2016-): The Rebirth Deluxe Edition - Book 4">
+             <p>Batman (2016-): The Rebirth Deluxe Edition - Book 4</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91iKPkUwH-L._SY466_.jpg" alt="Batman (2016-): The Rebirth Deluxe Edition - Book 5">
+             <p>Batman (2016-): The Rebirth Deluxe Edition - Book 5</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91efoHuMuxL._SY466_.jpg" alt="Batman (2016-): The Rebirth Deluxe Edition - Book 6">
+             <p>Batman (2016-): The Rebirth Deluxe Edition - Book 6</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://a.media-amazon.com/images/I/91KgFoW8APL._SY466_.jpg" alt="Heroes in Crisis">
+             <p>Heroes in Crisis</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/81YXeoFpnEL._SY466_.jpg" alt="Batman/Catwoman">
+             <p>Batman/Catwoman</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/91na8HaSg-L._SY466_.jpg" alt="Gotham City: Year One">
+             <p>Gotham City: Year One</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/5185Nb7J2+L._SY445_SX342_.jpg" alt="Supergirl: Woman of Tomorrow">
+             <p>Supergirl: Woman of Tomorrow</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/91oZcrJaWKL._SY466_.jpg" alt="Superman: Up in the Sky">
+             <p>Superman: Up in the Sky</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/A1pUzR2YvVL._SY466_.jpg" alt="Strange Adventures">
+             <p>Strange Adventures</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/A1CR-0JBWmL._SY466_.jpg" alt="The Omega Men">
+             <p>The Omega Men</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/91AmRllOdqL._SY466_.jpg" alt="Rorschach">
+             <p>Rorschach</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/81KsvgqPRzL._SY466_.jpg" alt="Danger Street (2022-) Vol. 1">
+             <p>Danger Street (2022-) Vol. 1</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/81VqNZjPbcL._SY466_.jpg" alt="Danger Street (2022-) Vol. 2">
+             <p>Danger Street (2022-) Vol. 2</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/918UEBbn0RL._SY466_.jpg" alt="Mister Miracle">
+             <p>Mister Miracle</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/81N-D724hmL._SY466_.jpg" alt="Sheriff of Babylon: The Deluxe Edition">
+             <p>Sheriff of Babylon: The Deluxe Edition</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/91GtwUpEhQL._SY466_.jpg" alt="The Human Target (2021-) Vol. 1">
+             <p>The Human Target (2021-) Vol. 1</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/91SM8G2-IKL._SY466_.jpg" alt="The Human Target (2021-) Vol. 2">
+             <p>The Human Target (2021-) Vol. 2</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/81WcfLyiHzL._SY466_.jpg" alt="DC Meets Looney Tunes">
+             <p>DC Meets Looney Tunes</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
