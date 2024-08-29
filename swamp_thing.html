@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kindle Comic Reading Orders</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page-id="swamp_thing">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="orders.html">Reading Orders</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    </nav>
+
+    <!-- Introduction Text -->
+    <div class="introduction">
+        <h1>Swamp Thing Reading Order</h1>
+        <p>Reading order based on my currently owned Kindle books</p>
+    </div>
+    <!-- Percentage Display Section -->
+    <div class="progress-section">
+      <h2>Progress</h2>
+      <div class="progress-bar-container">
+          <div class="progress-bar" id="progress-bar"></div>
+      </div>
+      <p id="progress-text">0% of books read</p>
+    </div>
+    <!-- Book Container -->
+    <div class="book-container" id="books">
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/91f9YVNFdFL._SY466_.jpg" alt="Swamp Thing: The Bronze Age Vol. 1">
+             <p>Swamp Thing: The Bronze Age Vol. 1</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/81fFNWkirnL._SY466_.jpg" alt="Saga of the Swamp Thing: Book 1">
+             <p>Saga of the Swamp Thing: Book 1</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/81Ctt4fLEiL._SY466_.jpg" alt="Saga of the Swamp Thing: Book 2">
+             <p>Saga of the Swamp Thing: Book 2</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/81j5sTh+-ZL._SY466_.jpg" alt="Saga of the Swamp Thing: Book 3">
+             <p>Saga of the Swamp Thing: Book 3</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/817jHfulQiL._SY466_.jpg" alt="Saga of the Swamp Thing: Book 4">
+             <p>Saga of the Swamp Thing: Book 4</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/81NpnielgVL._SY466_.jpg" alt="Saga of the Swamp Thing: Book 5">
+             <p>Saga of the Swamp Thing: Book 5</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/81+edrk+GNL._SY466_.jpg" alt="Saga of the Swamp Thing: Book 6">
+             <p>Saga of the Swamp Thing: Book 6</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/911Sg-n3gVL._SY466_.jpg" alt="Swamp Thing By Scott Snyder: Deluxe Edition">
+             <p>Swamp Thing By Scott Snyder: Deluxe Edition</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/91TDs1FQp9L._SY466_.jpg" alt="Swamp Thing: New Roots Vol. 1">
+             <p>Swamp Thing: New Roots Vol. 1</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/91ScuJQNDfL._SY466_.jpg" alt="The Swamp Thing (2021-) Vol. 1: Becoming">
+             <p>The Swamp Thing (2021-) Vol. 1: Becoming</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/91N+cH2N3XL._SY466_.jpg" alt="The Swamp Thing (2021-) Vol. 2: Conduit">
+             <p>The Swamp Thing (2021-) Vol. 2: Conduit</p>
+        </div>
+
+        <div class="book" data-status="unread" onclick="toggleStatus(this)">
+             <img src="https://m.media-amazon.com/images/I/918F6XkyTKL._SY466_.jpg" alt="The Swamp Thing (2021-) Vol. 3: The Parliament of Gears">
+             <p>The Swamp Thing (2021-) Vol. 3: The Parliament of Gears</p>
+        </div>
+
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

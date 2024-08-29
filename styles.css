@@ -57,6 +57,42 @@ body {
     color: #555;
 }
 
+/* Progress Section Styling */
+.progress-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.progress-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.progress-bar-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background-color: #32cd32; /* LimeGreen */
+    transition: width 0.3s ease;
+}
+
+#progress-text {
+    font-size: 1.2em;
+    color: #555;
+}
 /* Book Container */
 .book-container {
     display: flex;
